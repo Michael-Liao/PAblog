@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NCYU-Protocol ambassador</title>
+	<meta charset="UTF-8"></meta>
+	<meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+	<link type="text/css" rel="stylesheet" href="css/style.css"></link>
+	<link href="img/Icon.png" type="/image/x-icon" rel="Shortcut Icon"></link>
+</head>
+<body>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  		<div class="container">
+	    	<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a id="NAVbrand" class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Protocol Ambassador</a>
+    		</div>
+    	 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+        			<li><a id="NAVannual" href="#annual">Annual Affairs</a></li>
+      			</ul>
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a id="NAVabout" href="#about">About us</a></li>
+        			<li><a id="NAVsign" href="#sign">Sign up</a></li>
+			        <li><a id="NAVlog" href="#log"><span class="glyphicon glyphicon-log-in"></span> log in</a></li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->	
+  		</div>
+	</nav>
+  	<div id="content" class="container">
+  		<div id="home">
+			<div class="jumbotron" style="background-color:#ff6699;padding-bottom:250px;">
+	  			<h1>Join Us!</h1>
+	  			<p>We pick the best of the best annually. With no limits on heights, everyone is possible to be a protocol ambassador.</p>
+	  			<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+			</div>
+			<br/>
+			<h1>Advantages</h1>
+			<div class="jumbotron" style="background-color:#3366ff;color:#ffffff;">
+	  			<h2>Chors no more!</h2>
+	  			<p>After you become part of our crew, all the missions you participate in will also count as your comunity serving hours.</p>
+			</div>
+			<div class="jumbotron" style="background-color:#4775ff;color:#ffffff;">
+	  			<h2>Recieve a golden award!</h2>
+	  			<p>If you re able to take part in certain amoints of hours, you will get a golden award when you graduate.</p>
+			</div>
+			<div class="jumbotron" style="background-color:#5c85ff;color:#ffffff;">
+	  			<h2>Free Suit!</h2>
+	  			<p>I left the best for last. The suit you see is free! The school considered us to be  valuable assets, and is willing to make taylored suits for every joining member.</p>
+			</div>
+		</div><!--home-->
+		<div id="annual">
+			<table class="table table-hover">
+ 				<tr><td><strong>date</strong></td><td><strong>event</strong></td><td><strong>people in charge</strong></td></tr>
+ 				<tr><td>Sep.28</td><td>Birth of Confucios</td><td>Yawen Su</td></tr>
+ 				<tr><td>Nov.03</td><td>course(1)</td><td>Willy Tsai</td></tr>
+ 				<tr><td>Nov.04</td><td>course(2)</td><td>Willy Tsai</td></tr>
+			</table>
+		</div><!--annual events-->
+		<div id="about">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Mission Statement</h3>
+  				</div>
+  				<div class="panel-body">
+    				<p>In order to respond to the principle's governance of service and innovation, alongside with the spirit of humane education. Hoping to lead the school to a more civilized trend. Creating a cordial,professional thus a high quality image.</p>
+  				</div>
+			</div>
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Things we do</h3>
+  				</div>
+  				<div class="panel-body">
+    				<p>Protocol Ambassador basicly does the following jobs:</p>
+    				<ul>
+    					<li>Reception</li><li>Guidance</li><li>Award Delivery</li><li>Announcer of Ceremonies</li>
+    				</ul>
+  				</div>
+			</div>
+		</div><!--about-->
+		<div id="sign">
+			<h2>Why Sign Up?</h2>
+			<p>In order to keep things safe, We set up a password to prevent others from editing. 
+			It is crucial that you log in to change any posts.</p>
+			<form action="confirm.php" method="post">
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">
+	  					<span class="glyphicon glyphicon-user"></span>
+	  				</span>
+	  				<input type="text" name="name" class="form-control" placeholder="User ID">
+				</div><!--User ID-->
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">
+	  					<img src="img/key.png" style="width:18px;hight:18px;">
+	  				</span>
+	  				<input type="password" name="password" class="form-control" placeholder="Password">
+				</div><!--passward-->
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">
+	  					<span class="glyphicon glyphicon-envelope"></span>
+	  				</span>
+	  				<input type="email" name="email" class="form-control" placeholder="email">
+				</div><!--email-->
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">#</span>
+	  				<input type="text" name="code" class="form-control" placeholder="Sequence">
+	  				<span class="input-group-btn">
+	        			<button type="submit" class="btn btn-default" name="submit" value="sign" title="GO!">
+	        				<span class="glyphicon glyphicon-chevron-right"></span>
+	        			</button>
+	        		</span>
+				</div><!--code-->
+			</form>
+		</div><!--sign in-->
+		<div id="log">
+			<h2>Welcome</h2>
+			<p>Please log in to view all post and participate in great variety of missions and more.</p>
+			<form action="confirm.php" method="post">
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">
+	  					<span class="glyphicon glyphicon-user"></span>
+	  				</span>
+	  				<input type="text" name="name" class="form-control" placeholder="User ID">
+				</div><!--User ID-->
+				<div class="input-group input-group-lg" style="padding:10px">
+	  				<span class="input-group-addon">
+	  					<img src="img/key.png" style="width:18px;hight:18px;">
+	  				</span>
+	  				<input type="password" name="password" class="form-control" placeholder="Password">
+	  				<span class="input-group-btn">
+	        			<button type="submit" class="btn btn-default" name="submit" value="log" title="GO!">
+	        				<span class="glyphicon glyphicon-chevron-right"></span>
+	        			</button>
+	        		</span>
+				</div><!--passward-->
+			</form>
+		</div><!--log in-->
+		<div id="err">
+			<div class="alert alert-warning" role="alert">
+				<span class="glyphicon glyphicon-warning-sign"></span> invalid account! Make sure you are registered. <a id="sign" href="">Click here</a> to sign up.
+			</div> <!--error input-->
+		</div>
+	</div><!--container-->
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Protocol Ambassador</title>
+	<meta charset="UTF-8"></meta>
+	<meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+	<link type="text/css" rel="stylesheet" href="css/style.css"></link>
+	<link href="img/Icon.png" type="/image/x-icon" rel="Shortcut Icon"></link>
+</head>
+<body>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/inner.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="ckeditor/ckeditor.js"></script>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  		<div class="container">
+	    	<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a id="NAVbrand" class="navbar-brand" href="#home"><span class="glyphicon glyphicon-home"></span> Protocol Ambassador</a>
+    		</div>
+    	 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a id="NAVedit" href="#edit"><span class="glyphicon glyphicon-pencil"></span></a></li>
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				        <span class="glyphicon glyphicon-plus"></span> New <span class="caret"></span></a>
+				        <ul class="dropdown-menu" role="menu">
+				            <li><a id="NAVmission" href="#">Mission</a></li>
+				            <li><a id="NAVrecord" href="#">Record</a></li>
+				            <li class="divider"></li>
+				            <li><a id="NAVpublic" href="#">Public Announcement</a></li>
+				            <li><a id="NAVprivate" href="#">Private Announcement</a></li>
+				        </ul>
+			        </li>
+			        <li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> log out</a></li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->	
+  		</div>
+	</nav>
+	<div id="content" class="container">
+		<div id="home">
+			<p>no articles yet</p>
+			<a href="">Read more...</a>
+		</div>
+		<div id="mission">
+			<form method="post" action="post.php">
+				<div class="form-group">
+					<label for="cat">Category</label>
+					<input id="cat" name="cat" type="text" placeholder="ex.103 up" maxlength="6" size="10">
+				</div>
+				<div class="form-group">
+					<label for="name">Mission Name</label>
+					<input id="name" name="name" type="text" placeholder="Mission Name" maxlength="20" size="40">
+				</div>
+				<div class="form-group">
+					<label for="date">Mission Date</label>
+					<input id="date" name="date" type="text" placeholder="Mission Date" maxlength="40" size="60">
+				</div>
+				<div class="form-group">
+					<label for="loc">Mission location</label>
+					<input id="loc" name="loc" type="text" placeholder="Mission location" maxlength="40" size="60">
+				</div>
+				<div class="form-group">
+					<label for="info">Mission info</label>
+					<input id="info" name="info" type="text" placeholder="Mission info" maxlength="40" size="60">
+				</div>
+				<div class="form-group">
+					<label for="people">Participants</label>
+					<input id="people" name="people" type="text" placeholder="Participants" maxlength="40" size="60">
+				</div>
+				<div class="form-group">
+					<hr style="border-width:2px" />
+					<strong>(hidden info)</strong><br/>
+					<h5><b>Commision</b></h5>
+					<label class="radio-inline">
+						<input type="radio" name="comission" id="y" value="y"> YES
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="comission" id="n" value="n"> NO
+					</label>
+				</div>
+				<div class="form-group">
+					<label for="end">End date</label>
+					<input id="end" name="end" type="text" placeholder="End date" maxlength="20" size="25">
+				</div>
+				<div class="form-group">
+					<textarea name="ckeditor" class="ckeditor"></textarea>
+				</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div><!--add Mission-->
+	</div>
+</body>
+</html>

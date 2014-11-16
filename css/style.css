@@ -1,0 +1,24 @@
+body {
+	background-image: url(http://1.bp.blogspot.com/-IhYVhL2hARM/Uw8rw6jYZUI/AAAAAAAAJ5o/DBf5CXlKxbk/s1600/IMG_6148a.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#content {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+#sign {
+	width: 70%;
+	margin: 50px auto;
+	border-radius: 20px;
+	padding: 20px;
+}
+#log {
+	width: 70%;
+	margin: 50px auto;
+	border-radius: 20px;
+	padding: 20px;
+}
